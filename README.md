@@ -1,3 +1,3 @@
-# General
+# **General**
 
-## [**JavaScript**](./JavaScript/main.md)
+- ## [**JavaScript**](./JavaScript/main.md)
