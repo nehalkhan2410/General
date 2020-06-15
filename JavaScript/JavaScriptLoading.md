@@ -1,4 +1,6 @@
-## **JavaScript Loading:**
+# **JavaScript**
+
+## **JavaScript Loading**
 
 ### Loading the JavaScript as part of the web page can be done in three different ways:
 - normal

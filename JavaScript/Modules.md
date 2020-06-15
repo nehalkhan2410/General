@@ -1,4 +1,6 @@
-## **Modules:**
+# **JavaScript**
+
+## **Modules**
 
 ### **According to ES6 exporting the modules can be done in either of the ways as shown:**
 
