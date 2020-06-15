@@ -1,4 +1,4 @@
 # JavaScript
 
 - ## [**Modules**](./Modules.md)
-- ## [**JavaScript Loading**](./JavaSCriptLoading.md)
+- ## [**JavaScript Loading**](./JavaScriptLoading.md)
