@@ -1,3 +1,3 @@
 # General
 
-## [**JavaScript**](./JavaScript/landingpage.md)
+## [**JavaScript**](./JavaScript/main.md)
