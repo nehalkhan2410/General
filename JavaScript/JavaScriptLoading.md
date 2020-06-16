@@ -33,7 +33,7 @@ Below is a short description of how the three ways of loading javascript take pl
 
 <img src="./jsloading.png" alt="javascript loading differences" style="width:70%;padding:0 15%;"/>
 
-1. In the normal way of loading the script just stops parsing the page once it reaches the script tag, and once it is downloaded and executed then the rest of the parsing takes place.
+1.  In the normal way of loading the script just stops parsing the page once it reaches the script tag, and once it is downloaded and executed then the rest of the parsing takes place.
 
 ```html
 <!DOCTYPE html>
@@ -49,7 +49,7 @@ Below is a short description of how the three ways of loading javascript take pl
 
 ```
 
-2. You need to be careful while using the `async` attribute as it loads and executes the script (s) based on the size and network bandwidth in random order and this could cause a problem if there is a dependency.
+2.  You need to be careful while using the `async` attribute as it loads and executes the script (s) based on the size and network bandwidth in random order and this could cause a problem if there is a dependency.
 
 ```html
 <!DOCTYPE html>
@@ -64,7 +64,7 @@ Below is a short description of how the three ways of loading javascript take pl
 </html>
 ```
 
-3. In the case of `defer` tag loading and parsing are done parallelly and once all the parsing is done only then execution of the script (s) will take place.
+3.  In the case of `defer` tag loading and parsing are done parallelly and once all the parsing is done only then execution of the script (s) will take place.
 
 ```html
 <!DOCTYPE html>
