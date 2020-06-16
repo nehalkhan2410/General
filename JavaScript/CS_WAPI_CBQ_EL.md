@@ -26,13 +26,13 @@ The asynchronous code gets pushed to the call stack and since it cannot wait in 
 
 Few things like set timeouts, ajax calls, DOM are not part of the JavaScript language itself but are provided by the browser as part of WebAPI.
 
-### **Below is an example that shows an how setTimeout works:**
+#### **Below is an example that shows how setTimeout works:**
 
 The consoles get pushed onto call stack and get executed right away, but setTimeout gets pushed to the call stack and then sent to WebAPI where the timer starts running, and once the time completes, the callback function gets pushed onto callback queue. When the call stack doesn't have any pending tasks to execute, the event loop runs and moves the callback functions from the callback queue to the call stack.
 
 <img src="./webapi1.png" alt="setTimeout Example" style="width:60%;padding:0 20%;"/>
 
-### **Below is an example that shows an how ajax requests and browser events works:**
+#### **Below is an example that shows how AJAX requests and Browser events work:**
 
 The console gets pushed onto the call stack and gets executed right away, but click event and, ajax call gets pushed to the call stack and then sent to the WebAPI where it waits till click event is performed and pushes the callback function to callback queue also the URL gets hit to send the request, and once the data is retrieved the callback function gets pushed onto callback queue. When the call stack doesn't have any pending tasks to execute, the event loop runs and moves the callback functions from the callback queue to the call stack.
 
