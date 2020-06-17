@@ -51,7 +51,7 @@ console.log(varVariable);
 <img src="./hoisting.png" alt="hoisting" style="width:40%;padding:0 30%;"/>
 
 
-variable hosting example:
+variable hoisting example:
 
 ```javascript
 function foo() {
@@ -65,7 +65,7 @@ var X = "Hello";
 
 foo();
 ```
-variable and function hosting example:
+variable and function hoisting example:
 
 <img src="./varandfucntionhoisting.png" alt="varaible and function hoisting" style="width:80%;padding:0 10%;"/>
 
@@ -73,7 +73,7 @@ variable and function hosting example:
 
 A variable declared using `let` or `const` has a block scope i.e., their scope is within the block in which it resides.
 
-Example 1:
+Condition block scope example:
 
 ```javascript
 if(true){
@@ -84,7 +84,7 @@ if(true){
 // not defined error as scope is only within the if block
 console.log(letVariable);
 ```
-Example 2:
+Function block scope example:
 
 ```javascript
 function hello() {
