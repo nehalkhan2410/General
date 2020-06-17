@@ -48,7 +48,7 @@ console.log(varVariable);
 
 > **Note:** A variable declared using `var` may be used even before it is declared, and this is known as hoisting.
 
-<img src="./hoisting2.png" alt="hoisting" style="width:40%;padding:0 30%;"/>
+<img src="./hoisting.png" alt="hoisting" style="width:40%;padding:0 30%;"/>
 
 
 variable hosting example:
@@ -67,7 +67,7 @@ foo();
 ```
 variable and function hosting example:
 
-<img src="./hoisting.png" alt="hoisting" style="width:80%;padding:0 10%;"/>
+<img src="./varandfucntionhoisting.png" alt="varaible and function hoisting" style="width:80%;padding:0 10%;"/>
 
 ## **let and const:**
 
