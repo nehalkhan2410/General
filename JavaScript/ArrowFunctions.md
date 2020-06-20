@@ -101,7 +101,7 @@ person.printNameArrow();
 person.printNameFuncion();
 ```
 
-**Output:**
+*Output:*
 ```javascript
 Arrow: Kyle
 Function: undefined
