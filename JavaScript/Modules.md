@@ -1,4 +1,4 @@
-[General](../README.md) > [JavaScript](./main.md) > [Modules](./Modules.md)
+*[General](../README.md) > [JavaScript](./main.md) > [Modules](./Modules.md)*
 
 # **JavaScript**
 

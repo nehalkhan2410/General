@@ -1,4 +1,4 @@
-_[General](../README.md) > [JavaScript](./main.md) > [Variables](./Variables.md)_
+*[General](../README.md) > [JavaScript](./main.md) > [Variables](./Variables.md)*
 
 # **JavaScript**
 
@@ -48,7 +48,7 @@ console.log(varVariable);
 
 > **Note:** A variable declared using `var` may be used even before it is declared, and this is known as hoisting.
 
-<img src="./hoisting.png" alt="hoisting" style="width:40%;padding:0 30%;"/>
+<img src="./images/Variable_Hoisting.png" alt="Variable Hoisting" style="width:40%;padding:0 30%;"/>
 
 
 variable hoisting example:
@@ -67,7 +67,7 @@ foo();
 ```
 variable and function hoisting example:
 
-<img src="./varandfucntionhoisting.png" alt="varaible and function hoisting" style="width:80%;padding:0 10%;"/>
+<img src="./images/Var_and_Function_Hoisting.png" alt="Variable and Function Hoisting" style="width:80%;padding:0 10%;"/>
 
 ## **let and const:**
 
@@ -143,3 +143,6 @@ constVarible.name = "Sally";
 
 console.log(constVarible);
 ```
+> **Differences between various types of variables:**
+
+<img src="./images/Variables_Differences.png" alt="Variables Differences" style="width:80%;padding:0 10%;"/>
