@@ -31,15 +31,15 @@ So every value defined in the `global` scope can be used inside the `printName` 
 
 The closure value for first `printName` call.
 
-<img src="./images/printName_First_Closure.png" alt="Closure for first call" style="width:50%;padding:0 45% 0 5%;"/>
+<img src="./images/printName_First_Closure.png" alt="Closure for first call" style="width:60%;padding:0 35% 0 5%;"/>
 
 The closure value for second `printName` call.
 
-<img src="./images/printName_Second_Closure.png" alt="Closure for second call" style="width:50%;padding:0 45% 0 5%;"/>
+<img src="./images/printName_Second_Closure.png" alt="Closure for second call" style="width:60%;padding:0 35% 0 5%;"/>
 
 The closure value for third `printName` call.
 
-<img src="./images/printName_Third_Closure.png" alt="Closure for third call" style="width:50%;padding:0 45% 0 5%;"/>
+<img src="./images/printName_Third_Closure.png" alt="Closure for third call" style="width:60%;padding:0 35% 0 5%;"/>
 
 
 **Closure inside functions**
@@ -70,7 +70,7 @@ newFunction("inside");
 
 Even though the outer function is already executed but the `innerFunction` saves the value from outer scope as a closure.
 
-<img src="./images/innerFunction_Closure.png" alt="Closure for the innerFunction" style="width:50%;padding:0 45% 0 5%;"/>
+<img src="./images/innerFunction_Closure.png" alt="Closure for the innerFunction" style="width:60%;padding:0 35% 0 5%;"/>
 
 You can see that the values that are used by the `innerFunction` from its parent function are stored in the scope of that function under `Closure`.
 

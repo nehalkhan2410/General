@@ -4,7 +4,7 @@ _[General](../README.md) > [JavaScript](./main.md) > [Console](./Console.md)_
 
 ## **Console**
 
-> Console is a Console's built-in Debugger
+> Console is a Browser's built-in Debugger
 
 **Below are a few things you can do using the `console`**
 
@@ -16,7 +16,7 @@ console.assert(i > 2, "The value of 2 is less than 2");
 ```
 *Output:*
 
-<img src="./images/Console_assert.png" alt="Console assert" style="width:40%;padding:0 30%;"/>
+<img src="./images/Console_assert.png" alt="Console assert" style="width:60%;padding:0 20%;"/>
 
 - You can log an object in pretty way you can wrap it in braces `{}` but if you use `console.table()` it will logged in a more prettier way.
 
@@ -27,7 +27,7 @@ console.table(obj);
 ```
 *Output:*
 
-<img src="./images/Console_table.png" alt="Console table" style="width:40%;padding:0 30%;"/>
+<img src="./images/Console_table.png" alt="Console table" style="width:60%;padding:0 20%;"/>
 
 - You can group together any repetative logs along with a label using `console.group()` which takes label for the group as a parameter.
 
@@ -39,7 +39,7 @@ for(let i=0;i<10000;i++){
 ```
 *Output:*
 
-<img src="./images/Console_group.png" alt="Console group" style="width:40%;padding:0 30%;"/>
+<img src="./images/Console_group.png" alt="Console group" style="width:60%;padding:0 20%;"/>
 
 - You can log an object in a detailed manner using `console.dir()` which takes object itself as a parameter.
 
@@ -49,7 +49,7 @@ console.dir(obj);
 ```
 *Output:*
 
-<img src="./images/Console_dir.png" alt="Console dir" style="width:40%;padding:0 30%;"/>
+<img src="./images/Console_dir.png" alt="Console dir" style="width:60%;padding:0 20%;"/>
 
 - You can keep track of a counter variable then you can use `console.count()` which takes a label as parameter.
 
@@ -70,7 +70,7 @@ console.count('clicks');
 ```
 *Output:*
 
-<img src="./images/Console_count.png" alt="Console count" style="width:40%;padding:0 30%;"/>
+<img src="./images/Console_count.png" alt="Console count" style="width:60%;padding:0 20%;"/>
 
 - You can check how much time a block of code took to execute using `console.time()` and `console.timeLog()` which both take the same label as a paramter and surrounding them around the block of code for which you want to calculate the time.
 
@@ -85,7 +85,7 @@ console.timeLog("time to complete");
 ```
 *Output:*
 
-<img src="./images/Console_timeLog.png" alt="Console time and timeLog" style="width:40%;padding:0 30%;"/>
+<img src="./images/Console_timeLog.png" alt="Console time and timeLog" style="width:60%;padding:0 20%;"/>
 
 - You can trace from where the function has be called using the `console.trace()` which takes label as a parameter.
 
@@ -100,7 +100,7 @@ bottom();
 ```
 *Output:*
 
-<img src="./images/Console_trace.png" alt="Console trace" style="width:40%;padding:0 30%;"/>
+<img src="./images/Console_trace.png" alt="Console trace" style="width:60%;padding:0 20%;"/>
 
 - You can style the contents of a log message by adding `%c` at the beginning of the message in `console.log()` which takes message as first parameter and styles as second parameter.
 
@@ -109,7 +109,7 @@ console.log('%c Javascript is beautiful','color:yellow;font-weight:bold;font-siz
 ```
 *Output:*
 
-<img src="./images/Console_with_Styles.png" alt="Console with Styles" style="width:40%;padding:0 30%;"/>
+<img src="./images/Console_with_Styles.png" alt="Console with Styles" style="width:60%;padding:0 20%;"/>
 
 - If you wan't to explore more about what `console` can offer you use `console.log(console)` to see all those methods, and you can dive deeper to know what each one of them can do.
 
@@ -118,4 +118,4 @@ console.log(console);
 ```
 *Output:*
 
-<img src="./images/Console_console.png" alt="Console of console" style="width:40%;padding:0 30%;"/>
+<img src="./images/Console_console.png" alt="Console of console" style="width:60%;padding:0 20%;"/>
