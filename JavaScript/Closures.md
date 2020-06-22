@@ -27,7 +27,7 @@ myName = "Becky";
 
 printName();
 ```
-So every value defined in the `global` scope can be used inside the `printName` function and the latest value at the time of calling the fucntion will be saved in `Closure`.
+So every value defined in the `global` scope can be used inside the `printName` function and the latest value at the time of calling the function will be saved in `Closure`.
 
 The closure value for first `printName` call.
 
@@ -68,7 +68,7 @@ console.dir(newFunction);
 newFunction("inside");
 ```
 
-Even though the outer function is already executed but the `innerFunction` saves the value from outer scope as a closure.
+Even though the outer function is already executed but the `innerFunction` saves the value from the outer scope as a closure.
 
 <img src="./images/innerFunction_Closure.png" alt="Closure for the innerFunction" style="width:60%;padding:0 35% 0 5%;"/>
 
@@ -76,11 +76,11 @@ You can see that the values that are used by the `innerFunction` from its parent
 
 `Closure` only stores the values which are used in the `innerFunction`, as you can see the value of `outerVariable3` is declared in parent's scope but is not used by `innerFunction`. 
 
-Everything from the parent function/block is accessible inside the innermost block but not vice versa i.e., if you try to access the value of `localVariable` outside the function it will throw an `undefined` error.
+Everything from the parent function/block is accessible inside the innermost block but not vice versa i.e. if you try to access the value of `localVariable` outside the function it will throw an `undefined` error.
 
-**Closure inside a for loop with variable declared using `let`**
+**Closure inside a for loop with a variable declared using `let`**
 
-Since `let` has a block scope, for each iteration `i` is redeclared with present value of that iteration and that reference of `i` is saved in the `Closure` (new variable `i` each time).
+Since `let` has block scope, for each iteration `i` is redeclared with the present value of that iteration and that reference of `i` is saved in the `Closure` (new variable `i` each time).
 
 ```javascript
 i=0 f(closure:i=0)
@@ -100,9 +100,9 @@ console.log("after the loop");
 
 **Closure inside a for loop with variable declared using `var`**
 
-Since `var` has a function scope, for each iteration `i` is reassigned with present value of that interation and that reference of `i` is saved in the `Closure` (same i each time).
+Since `var` has function scope, for each iteration `i` is reassigned with the present value of that iteration and that reference of `i` is saved in the `Closure` (same i each time).
 
-And also `i` increments to 3 in order to check the condition and break the for loop, the reference to `i` will hold the final value of 3 which will be used as the value in the `Closure`.
+And also `i` increments to 3 to check the condition and break the for loop, the reference to `i` will hold the final value of 3 which will be used as the value in the `Closure`.
 
 ```javascript
 i=3 f(closure:i=3)
@@ -119,7 +119,7 @@ for (var i = 0; i < 3; i++) {
 
 console.log("after the loop");
 ```
-If we pass the `i` to the anonymous function each time, then value of that current iteration is passed ana saved as the `Closure` value.
+If we pass the `i` to the anonymous function each time, then the value of that current iteration is passed ana saved as the `Closure` value.
 
 ```javascript
 for (var i = 0; i < 3; i++) {

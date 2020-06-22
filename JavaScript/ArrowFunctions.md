@@ -1,4 +1,4 @@
-*[General](../README.md) > [JavaScript](./main.md) > [Arrow Functions](./ArrowFunctions.md)*
+_[General](../README.md) > [JavaScript](./main.md) > [Arrow Functions](./ArrowFunctions.md)_
 
 # **JavaScript**
 
@@ -13,13 +13,14 @@ function isPositive(number) {
 }
 
 // Arrow function with one parameter
-let isPositive2 = (number) => {
+let _isPositive = (number) => {
   return number >= 0;
-}
+};
 
 // If it has a single parameter then we can omit the paranthesis completely and since it just has a return statement inside the block we can skip that and everything after => is considered as a return statement.
-let isPositive3 = number => number >= 0;
+let __isPositive = (number) => number >= 0;
 ```
+
 **Function with two parameters:**
 
 ```javascript
@@ -29,13 +30,14 @@ function sum(a, b) {
 }
 
 // Two parameters are surrounded by paranthesis.
-let sum2 = (a, b) => {
+let _sum = (a, b) => {
   return a + b;
-}
+};
 
 // Since it just has a return statement inside the block we can skip that retunr and everything after => is considered as a return statement.
-let sum3 = (a, b) => a + b;
+let __sum = (a, b) => a + b;
 ```
+
 **Function with no parameters:**
 
 ```javascript
@@ -45,12 +47,12 @@ function randonNumber() {
 }
 
 // We provide empty paranthesis if there no parameters.
-let randomNumber2 = () => {
+let _randomNumber = () => {
   return Math.random();
-}
+};
 
 // Since it just has a return statement inside the block we can skip that return and everything after => is considered as a return statement here.
-let randomNumber3 = () => Math.random();
+let __randomNumber = () => Math.random();
 ```
 
 **Anonymous function:**
@@ -63,17 +65,18 @@ document.addEventListener("click", function () {
 
 // We provide empty paranthesis as there no parameters passed to anonymous function.
 document.addEventListener("click", () => {
-  console.log("Click")
+  console.log("Click");
 });
 
 // Since it just has a single statement inside the block we can skip the curly braces.
 document.addEventListener("click", () => console.log("Click"));
 ```
+
 **Here is an example that shows how a normal function and an arrow function make use of `this` keyword within their scopes**
 
-The arrow function shares the scope of its parent in this case setTImeout and printNameArrow function so the value of `this` is not redefined but is same as that of its parent function.
+The arrow function shares the scope of its parent without its own bindings to `this`, arguments, super, or new.target keywords, so the value of `this` is not redefined but is the same as that of its parent function.
 
-The normal function creates a new scope for itself once it is declared so the value of `this` would also be redefined within the function. So it can't access the elements from its parent function.
+A normal function creates a new scope for itself once it is declared, so the value of `this` would also be redefined within the function. So it can't access the elements from its parent scope.
 
 ```javascript
 class Person {
@@ -101,8 +104,9 @@ person.printNameArrow();
 person.printNameFuncion();
 ```
 
-*Output:*
+**Output:**
+
 ```javascript
-Arrow: Kyle
-Function: undefined
+Arrow: Kyle;
+Function: undefined;
 ```
