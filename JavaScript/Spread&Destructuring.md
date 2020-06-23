@@ -25,6 +25,13 @@ addNumbers(nums[0], nums[1], nums[2]);
 addNumbers(...nums);
 ```
 
+_Output:_
+
+```javascript
+12
+12
+```
+
 **Example for shifting and pushing elements in an array**
 
 ```javascript
@@ -50,7 +57,7 @@ console.log(__pokemon);
 
 _Ouptut:_
 
-```
+```javascript
 [ 'Arbok', 'Raichu', 'Sandshrew', 'Bulbasaur', 'Metapod', 'Weedle' ]
 [ 'Arbok', 'Raichu', 'Sandshrew', 'Bulbasaur', 'Metapod', 'Weedle' ]
 [ 'Bulbasaur', 'Metapod', 'Weedle', 'Arbok', 'Raichu', 'Sandshrew' ]
@@ -63,16 +70,24 @@ let one = [1, 2, 3];
 let two = [4, 5, 6];
 
 // if we want to add contents of both arrays to form a new array
-let three = a.concat(b);
+let three = one.concat(two);
 console.log(three);
 
 // we can do the same thing using spread operator
 three = [...one, ...two];
-console.log(c);
+console.log(three);
 
 // if we want to add contents of b into a instead of pushing each elements we can use spread operator
-a.push(...b);
-console.log(a);
+one.push(...two);
+console.log(one);
+```
+
+_Output:_
+
+```javascript
+[ 1, 2, 3, 4, 5, 6 ]
+[ 1, 2, 3, 4, 5, 6 ]
+[ 1, 2, 3, 4, 5, 6 ]
 ```
 
 **Example for inserting one array inside another array**
@@ -88,6 +103,20 @@ let life = [
 ];
 
 console.log(life);
+```
+
+_Output:_
+
+```javascript
+[
+  "born",
+  "learn to walk",
+  "learn to speak",
+  "have fun",
+  "have more fun",
+  "have some more fun",
+  "go to heaven",
+];
 ```
 
 **Example for merging one object into another**
@@ -145,6 +174,13 @@ x = function (a, ...rest) {
 };
 
 x(1, 2, 3);
+```
+
+_Output:_
+
+```javascript
+[ 1, 2, 3 ]
+1 [ 2, 3 ]
 ```
 
 ### **Destructuring:**
