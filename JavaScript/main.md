@@ -12,5 +12,6 @@ _[General](../README.md) > [JavaScript](./main.md)_
 | 6   | [**JavaScript Loading**](./JavaScriptLoading.md)                           | Different ways to load javascript within a HTML page                                                 |
 | 7   | [**JSON**](./JSON.md)                                                      | How to create, read and use JavaScript Object Notation (**JSON**)                                    |
 | 8   | [**Modules**](./Modules.md)                                                | How to create, export, import and use modules in JavaScript                                          |
-| 9   | [**Template Literals**](./TemplateLiterals.md)                             | A new way to create a string which allow embedded expressions                                        |
-| 10  | [**Variables**](./Variables.md)                                            | Different ways to declare and use variables                                                          |
+| 9   | [**Spread Operator & Destructuring**](./Spread&Destructuring.md)           | How to use Spread/Rest operators and details about Array and Object destructuring                    |
+| 10  | [**Template Literals**](./TemplateLiterals.md)                             | A new way to create a string which allow embedded expressions                                        |
+| 11  | [**Variables**](./Variables.md)                                            | Different ways to declare and use 󠁻󠁻󠁻variables                                                       |
