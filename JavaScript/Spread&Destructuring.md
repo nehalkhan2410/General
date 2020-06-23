@@ -116,7 +116,7 @@ _Output:_
   "have more fun",
   "have some more fun",
   "go to heaven",
-];
+]
 ```
 
 **Example for merging one object into another**
