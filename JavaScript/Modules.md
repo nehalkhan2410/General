@@ -115,7 +115,7 @@ pA(user);
 
 _Output:_
 
-<img src="./images/Module_Output.png" alt="Module Output" style="width:40%;padding:0 55% 0 5%;"/>
+<img src="./images/Module_Output.png" alt="Module Output" style="width:30%;padding:0 65% 0 5%;"/>
 
 > #### Note: Attribute `type="module"` need to be added in the script tag in case you want to use modules in plain HTML which in-turn by default adds the `defer` attribute to script tag to load the scripts
 
