@@ -18,7 +18,13 @@ let _isPositive = (number) => {
 };
 
 // If it has a single parameter then we can omit the paranthesis completely and since it just has a return statement inside the block we can skip that and everything after => is considered as a return statement.
-let __isPositive = (number) => number >= 0;
+let _isPositive_ = (number) => number >= 0;
+```
+
+_Output:_
+
+```javascript
+true true true
 ```
 
 **Function with two parameters:**
@@ -35,7 +41,14 @@ let _sum = (a, b) => {
 };
 
 // Since it just has a return statement inside the block we can skip that retunr and everything after => is considered as a return statement.
-let __sum = (a, b) => a + b;
+let _sum_ = (a, b) => a + b;
+console.log(sum(4, 5), _sum(9, 4), _sum_(10, 2));
+```
+
+_Output:_
+
+```javascript
+9 13 12
 ```
 
 **Function with no parameters:**
@@ -52,7 +65,15 @@ let _randomNumber = () => {
 };
 
 // Since it just has a return statement inside the block we can skip that return and everything after => is considered as a return statement here.
-let __randomNumber = () => Math.random();
+let _randomNumber_ = () => Math.random();
+
+console.log(randonNumber(), _randomNumber(), _randomNumber_());
+```
+
+_Output:_
+
+```javascript
+0.6592502157878466 0.32602803839516525 0.3468706177062806
 ```
 
 **Anonymous function:**
@@ -70,6 +91,14 @@ document.addEventListener("click", () => {
 
 // Since it just has a single statement inside the block we can skip the curly braces.
 document.addEventListener("click", () => console.log("Click"));
+```
+
+_Output:_
+
+```javascript
+Click
+Click
+Click
 ```
 
 **Here is an example that shows how a normal function and an arrow function make use of `this` keyword within their scopes**

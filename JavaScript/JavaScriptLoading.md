@@ -1,10 +1,11 @@
-*[General](../README.md) > [JavaScript](./main.md) > [JavaScript Loading](./JavaSCriptLoading.md)*
+_[General](../README.md) > [JavaScript](./main.md) > [JavaScript Loading](./JavaSCriptLoading.md)_
 
 # **JavaScript**
 
 ## **JavaScript Loading**
 
 ### Loading the JavaScript as part of the web page can be done in three different ways:
+
 - normal
 - async
 - defer
@@ -18,8 +19,11 @@ In a normal case when an HTML page is parsed from top to bottom, whenever the pa
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaSCript Loading</title>
+    <!-- image is loaded parallelly -->
     <image src="jsloading.png">
+    <!-- styles are loaded parallelly -->
     <link href="style.css" rel="stylesheet">
+    <!-- parsing stops here -->
     <script src="main.js"></script>
 </head>
 <body>
@@ -46,7 +50,6 @@ Below is a short description of how the three ways of loading javascript take pl
   </head>
   <body></body>
 </html>
-
 ```
 
 2.  You need to be careful while using the `async` attribute as it loads and executes the script (s) based on the size and network bandwidth in random order and this could cause a problem if there is a dependency.
@@ -64,7 +67,7 @@ Below is a short description of how the three ways of loading javascript take pl
 </html>
 ```
 
-3.  In the case of `defer` tag loading and parsing are done parallelly and once all the parsing is done only then execution of the script (s) will take place.
+3.  In the case of `defer` attribute, loading and parsing are done in parallel and once all the parsing is complete, then execution of the script (s) will take place.
 
 ```html
 <!DOCTYPE html>
@@ -73,7 +76,7 @@ Below is a short description of how the three ways of loading javascript take pl
     <title>JavaSCript Loading</title>
     <!-- Execution of the script won't start until all the laoding and parsing is
     complete. -->
-    <script async src="main.js"></script>
+    <script defer src="main.js"></script>
   </head>
   <body></body>
 </html>

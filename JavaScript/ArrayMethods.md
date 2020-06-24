@@ -38,6 +38,13 @@ const _highValue = orders.filter((v) => v > 100);
 console.log(_total, _withTax, _highValue);
 ```
 
+_Output:_
+
+```javascript
+867 [ 550, 33, 108.9, 16.5, 245.3 ] [ 500, 223 ]
+867 [ 550, 33, 108.9, 16.5, 245.3 ] [ 500, 223 ]
+```
+
 Now let's take a look at a few built-in array methods that can do most of the tasks in a better and much cleaner way.
 
 We would be using the following two arrays throughout our examples.
@@ -67,10 +74,28 @@ const filteredItems = items.filter((item) => {
 console.log(filteredItems);
 ```
 
+_Output:_
+
+```javascript
+[
+  { name: "Bike", price: 100 },
+  { name: "Album", price: 10 },
+  { name: "Book", price: 5 },
+  { name: "Keyboard", price: 25 },
+]
+```
+
 In the example, we filter out the item which is an odd one out.
 
 ```javascript
 const feces = faces.filter((v) => v === "💩");
+console.log(feces);
+```
+
+_Output:_
+
+```javascript
+["💩"]
 ```
 
 `map` method iterates over each element in the array and takes that item as a parameter and performs some given action on it and returns it.
@@ -84,11 +109,24 @@ const itemNames = items.map((item) => {
 console.log(itemNames);
 ```
 
+_Output:_
+
+```javascript
+["Bike", "TV", "Album", "Book", "Phone", "Computer", "Keyboard"]
+```
+
 In the example, we replace each item in the array with a new value to be part of the resulting array.
 
 ```javascript
-const faces = ["💩"];
+const feces = ["💩"];
 const cleaned = feces.map((v) => "⛅");
+console.log(cleaned);
+```
+
+_Output:_
+
+```javascript
+[ '⛅' ]
 ```
 
 `find` method iterates over each element in the array and takes that item as a parameter and checks a given condition to return a boolean value as output based on the result of that condition.
@@ -102,6 +140,12 @@ const foundItem = items.find((item) => {
 console.log(foundItem);
 ```
 
+_Output:_
+
+```javascript
+{ name: 'Book', price: 5 }
+```
+
 `forEach` is a shorter way to iterate over an array and perform some action with each element.
 
 In the example, we iterate over the elements of the array and print the name from each item.
@@ -110,6 +154,18 @@ In the example, we iterate over the elements of the array and print the name fro
 items.forEach((item) => {
   console.log(item.name);
 });
+```
+
+_Output:_
+
+```javascript
+Bike
+TV
+Album
+Book
+Phone
+Computer
+Keyboard
 ```
 
 `some` method iterates over each element in the array and takes that item as a parameter and returns true as output if the given condition is satisfied at least one time.
@@ -123,11 +179,23 @@ const hasInexpensiveItems = items.some((item) => {
 console.log(hasInexpensiveItems);
 ```
 
+_Output:_
+
+```javascript
+true
+```
+
 In the example, we iterate over the elements and return true if the item matches with given character at least once.
 
 ```javascript
 const isPoopy = faces.some((v) => v === "💩");
 console.log(isPoopy);
+```
+
+_Output:_
+
+```javascript
+true
 ```
 
 `every` method iterates over each element in the array and takes that item as a parameter and returns true as output if the given condition is satisfied for every item.
@@ -141,11 +209,23 @@ const _hasInexpensiveItems = items.every((item) => {
 console.log(_hasInexpensiveItems);
 ```
 
+_Output:_
+
+```javascript
+true
+```
+
 In the example, we iterate over the elements and return true if the character of the item is greater than the given character every time.
 
 ```javascript
-const isEmoji = faces.every((v) => v > "ÿ");
+const isEmoji = aces.every((v) => v > "ÿ");
 console.log(isEmoji);
+```
+
+_Output:_
+
+```javascript
+true
 ```
 
 `reduce` method iterates over each element in the array and takes two parameters, first a function with an accumulator value and the item itself as two parameters, and initial value for the accumulator as the second parameter. And perform some calculation on each item to change the accumulated value for each iteration to return the desired output.
@@ -159,14 +239,26 @@ const total = items.reduce((currentTotal, item) => {
 console.log(total);
 ```
 
-In the example, we iterate over each item to increment the initial value of the accumulator by one, if the current one matches with the given character. 
+_Output:_
 
 ```javascript
-const pooCount = _faces.reduce((acc, cur) => {
+1840
+```
+
+In the example, we iterate over each item to increment the initial value of the accumulator by one, if the current one matches with the given character.
+
+```javascript
+const pooCount = faces.reduce((acc, cur) => {
   return acc + (cur === "💩" ? 1 : 0);
 }, 0); // 0 is the initial value for the accumulator
 
 console.log(pooCount);
+```
+
+_Output:_
+
+```javascript
+1
 ```
 
 `includes` method checks if the given value is present in the array or not to return a boolean output.
@@ -178,10 +270,8 @@ const includesTwo = numbers.includes(2);
 console.log(includesTwo);
 ```
 
-sort 2
-concat
-join
-slice 2
-splice
-shift
-unshift
+_Output:_
+
+```javascript
+true
+```

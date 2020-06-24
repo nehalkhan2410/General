@@ -29,13 +29,21 @@ console.log("Fifteen is " + (a + b) + " and\nnot " + (2 * a + b) + ".");
 console.log(`Fifteen is ${a + b} and not ${2 * a + b}.`);
 ```
 
+_Output:_
+
+```javascript
+Fifteen is 15 and
+not 20.
+Fifteen is 15 and not 20.
+```
+
 **Embedded Expressions:**
 
 We embed expressions in a string by concatenating them with static string content.
 
 ```javascript
 const horse = {
-  name: "Topher 🐴 ",
+  name: "Topher 🐴",
   size: "large",
   skills: ["jousting", "racing"],
   age: 7,
@@ -57,6 +65,13 @@ bio = `${horse.name} is a ${horse.size} horse skilled in ${horse.skills.join(
 console.log(bio);
 ```
 
+_Output:_
+
+```javascript
+Topher 🐴 is a large horse skilled in jousting & racing
+Topher 🐴 is a large horse skilled in jousting & racing
+```
+
 **Multi-line Strings:**
 
 Normally, you would have to use the following syntax with newline characters in order to get multi-line strings:
@@ -68,6 +83,15 @@ console.log("string text line 1\n" + "string text line 2");
 // Using string literals ✅
 console.log(`string text line 1
 string text line 2`);
+```
+
+_Output:_
+
+```javascript
+string text line 1
+string text line 2
+string text line 1
+string text line 2
 ```
 
 **Nesting Templates:**
@@ -118,6 +142,7 @@ const horse = {
   size: "large",
   skills: ["jousting", "racing"],
   age: 7,
+  🌐
 };
 
 // The string passed to function is considered as first paramter, and provided expressions are the following parameters

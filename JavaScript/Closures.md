@@ -27,6 +27,15 @@ myName = "Becky";
 
 printName();
 ```
+
+_Output:_
+
+```javascript
+Kyle
+Janet
+Becky
+```
+
 So every value defined in the `global` scope can be used inside the `printName` function and the latest value at the time of calling the function will be saved in `Closure`.
 
 The closure value for first `printName` call.
@@ -98,6 +107,16 @@ for (let i = 0; i < 3; i++) {
 console.log("after the loop");
 ```
 
+_Output:_
+
+```javascript
+after the loop
+0
+1
+2
+```
+
+
 **Closure inside a for loop with variable declared using `var`**
 
 Since `var` has function scope, for each iteration `i` is reassigned with the present value of that iteration and that reference of `i` is saved in the `Closure` (same i each time).
@@ -119,14 +138,12 @@ for (var i = 0; i < 3; i++) {
 
 console.log("after the loop");
 ```
-If we pass the `i` to the anonymous function each time, then the value of that current iteration is passed ana saved as the `Closure` value.
+
+_Output:_
 
 ```javascript
-for (var i = 0; i < 3; i++) {
-  setTimeout((i) => {
-    console.log(i);
-  }, 1000);
-}
-
-console.log("after the loop");
+after the loop
+3
+3
+3
 ```

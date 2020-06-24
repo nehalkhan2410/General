@@ -67,6 +67,25 @@ let companies = [
 console.log(companies,companies[0].name);
 ```
 
+_Output:_
+
+```javascript
+[
+  {
+    name: 'Big company',
+    numberOfEmployees: 10000,
+    ceo: 'Mary',
+    rating: 3.6
+  },
+  {
+    name: 'Small company',
+    numberOfEmployees: 5,
+    ceo: null,
+    rating: 4.2
+  }
+] Big company
+```
+
 But most of the time you will recieve the data in string format so we need to use `JSON.parse()` to parse the string and convert it to JSON format to access it.
 
 ```javascript
@@ -86,5 +105,24 @@ let companies = `[
                 ]`;
 
 console.log(JSON.parse(companies), JSON.parse(companies)[0].name);
+```
+
+_Output:_
+
+```javascript
+[
+  {
+    name: 'Big company',
+    numberOfEmployees: 10000,
+    ceo: 'Mary',
+    rating: 3.6
+  },
+  {
+    name: 'Small company',
+    numberOfEmployees: 5,
+    ceo: null,
+    rating: 4.2
+  }
+] Big company
 ```
 
