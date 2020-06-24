@@ -19,6 +19,8 @@ let _isPositive = (number) => {
 
 // If it has a single parameter then we can omit the paranthesis completely and since it just has a return statement inside the block we can skip that and everything after => is considered as a return statement.
 let _isPositive_ = (number) => number >= 0;
+
+console.log(isPositive(5), _isPositive(5), _isPositive_(5));
 ```
 
 _Output:_
