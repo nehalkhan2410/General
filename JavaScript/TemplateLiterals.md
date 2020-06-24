@@ -142,7 +142,6 @@ const horse = {
   size: "large",
   skills: ["jousting", "racing"],
   age: 7,
-  🌐
 };
 
 // The string passed to function is considered as first paramter, and provided expressions are the following parameters
@@ -151,11 +150,11 @@ function horseAge(str, age, skill) {
   console.log(`${str[0]}${ageStr} at ${age} years${str[1]}${skill}`);
 }
 
-horseAge`This horse is ${horse.age} skilled at ${horse.skills}`;
+horseAge`This horse is ${horse.age} skilled at ${horse.skills.join(" & ")}`;
 ```
 
 _Output:_
 
 ```javascript
-This horse is old at 7 years skilled at jousting,racing
+This horse is old at 7 years skilled at jousting & racing
 ```
