@@ -17,7 +17,9 @@ let _isPositive = (number) => {
   return number >= 0;
 };
 
-// If it has a single parameter then we can omit the paranthesis completely and since it just has a return statement inside the block we can skip that and everything after => is considered as a return statement.
+// If it has a single parameter then we can omit the paranthesis completely 
+// and since it just has a return statement inside the block we can skip that 
+// and everything after => is considered as a return statement.
 let _isPositive_ = (number) => number >= 0;
 
 console.log(isPositive(5), _isPositive(5), _isPositive_(5));
@@ -42,7 +44,8 @@ let _sum = (a, b) => {
   return a + b;
 };
 
-// Since it just has a return statement inside the block we can skip that retunr and everything after => is considered as a return statement.
+// Since it just has a return statement inside the block we can skip that return 
+// and everything after => is considered as a return statement.
 let _sum_ = (a, b) => a + b;
 console.log(sum(4, 5), _sum(9, 4), _sum_(10, 2));
 ```
@@ -66,7 +69,8 @@ let _randomNumber = () => {
   return Math.random();
 };
 
-// Since it just has a return statement inside the block we can skip that return and everything after => is considered as a return statement here.
+// Since it just has a return statement inside the block we can skip that return 
+// and everything after => is considered as a return statement here.
 let _randomNumber_ = () => Math.random();
 
 console.log(randonNumber(), _randomNumber(), _randomNumber_());
@@ -138,6 +142,6 @@ person.printNameFuncion();
 **Output:**
 
 ```javascript
-Arrow: Kyle;
-Function: undefined;
+Arrow: Kyle
+Function: undefined
 ```
