@@ -79,6 +79,8 @@ newFunction("inside");
 
 Even though the outer function is already executed but the `innerFunction` saves the value from the outer scope as a closure.
 
+_Output:_
+
 <img src="./images/innerFunction_Closure.png" alt="Closure for the innerFunction" style="width:60%;padding:0 35% 0 5%;"/>
 
 You can see that the values that are used by the `innerFunction` from its parent function are stored in the scope of that function under `Closure`.
