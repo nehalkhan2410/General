@@ -4,7 +4,7 @@ _[General](../README.md) > [JavaScript](./main.md) > [Spread Operator & Destruct
 
 ## **Spread Operator & Destructuring**
 
-### **Spread/Rest Operator:**
+### **Spread/Rest Operator**
 
 The spread operator allows an iterable such as an array expression, a string, or an object to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected.
 
@@ -183,11 +183,11 @@ _Output:_
 1 [ 2, 3 ]
 ```
 
-### **Destructuring:**
+### **Destructuring**
 
 The destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.
 
-**Array Destructuring:**
+**Array Destructuring**
 
 In array destructuring, the elements are stored into variables in the order which they are assigned.
 
@@ -254,7 +254,7 @@ _Ouptut:_
 5 6 0.6666666666666666
 ```
 
-**Object Destructuring:**
+**Object Destructuring**
 
 In object destructuring, the values are stored into variables as per the name of the keys in the object.
 

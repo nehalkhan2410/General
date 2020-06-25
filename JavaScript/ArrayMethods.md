@@ -45,7 +45,7 @@ _Output:_
 867 [ 550, 33, 108.9, 16.5, 245.3 ] [ 500, 223 ]
 ```
 
-Now let's take a look at a few built-in array methods that can do most of the tasks in a better and much cleaner way.
+### **Now let's take a look at a few built-in array methods that can do most of the tasks in a better and much cleaner way.**
 
 We would be using the following two arrays throughout our examples.
 
@@ -65,7 +65,7 @@ const faces = ["😀", "😃", "😄", "💩", "😁", "😆", "😅"];
 
 `filter` method iterates over each element in the array and takes that item as a parameter and checks a given condition to return a boolean value based on the result of that condition. If it is true, then that particular item gets filtered out into the resulting array.
 
-In the example, we filter out the items whose price is less than or equal to 100.
+**In the example, we filter out the items whose price is less than or equal to 100.**
 
 ```javascript
 const filteredItems = items.filter((item) => {
@@ -85,7 +85,7 @@ _Output:_
 ]
 ```
 
-In the example, we filter out the item which is an odd one out.
+**In the example, we filter out the item which is an odd one out.**
 
 ```javascript
 const feces = faces.filter((v) => v === "💩");
@@ -100,7 +100,7 @@ _Output:_
 
 `map` method iterates over each element in the array and takes that item as a parameter and performs some given action on it and returns it.
 
-In the example, we return the name from the object to be part of the resulting array.
+**In the example, we return the name from the object to be part of the resulting array.**
 
 ```javascript
 const itemNames = items.map((item) => {
@@ -115,7 +115,7 @@ _Output:_
 ["Bike", "TV", "Album", "Book", "Phone", "Computer", "Keyboard"]
 ```
 
-In the example, we replace each item in the array with a new value to be part of the resulting array.
+**In the example, we replace each item in the array with a new value to be part of the resulting array.**
 
 ```javascript
 const feces = ["💩"];
@@ -131,7 +131,7 @@ _Output:_
 
 `find` method iterates over each element in the array and takes that item as a parameter and checks a given condition to return a boolean value as output based on the result of that condition.
 
-In the example, we check for a condition on each item and return a boolean output.
+**In the example, we check for a condition on each item and return a boolean output.**
 
 ```javascript
 const foundItem = items.find((item) => {
@@ -148,7 +148,7 @@ _Output:_
 
 `forEach` is a shorter way to iterate over an array and perform some action with each element.
 
-In the example, we iterate over the elements of the array and print the name from each item.
+**In the example, we iterate over the elements of the array and print the name from each item.**
 
 ```javascript
 items.forEach((item) => {
@@ -170,7 +170,7 @@ Keyboard
 
 `some` method iterates over each element in the array and takes that item as a parameter and returns true as output if the given condition is satisfied at least one time.
 
-In the example, we iterate over the elements and return true if the condition is satisfied at least once.
+**In the example, we iterate over the elements and return true if the condition is satisfied at least once.**
 
 ```javascript
 const hasInexpensiveItems = items.some((item) => {
@@ -185,7 +185,7 @@ _Output:_
 true
 ```
 
-In the example, we iterate over the elements and return true if the item matches with given character at least once.
+**In the example, we iterate over the elements and return true if the item matches with given character at least once.**
 
 ```javascript
 const isPoopy = faces.some((v) => v === "💩");
@@ -200,7 +200,7 @@ true
 
 `every` method iterates over each element in the array and takes that item as a parameter and returns true as output if the given condition is satisfied for every item.
 
-In the example, we iterate over the elements and return true if the condition is satisfied for every item.
+**In the example, we iterate over the elements and return true if the condition is satisfied for every item.**
 
 ```javascript
 const _hasInexpensiveItems = items.every((item) => {
@@ -215,7 +215,7 @@ _Output:_
 true
 ```
 
-In the example, we iterate over the elements and return true if the character of the item is greater than the given character every time.
+**In the example, we iterate over the elements and return true if the character of the item is greater than the given character every time.**
 
 ```javascript
 const isEmoji = aces.every((v) => v > "ÿ");
@@ -230,7 +230,7 @@ true
 
 `reduce` method iterates over each element in the array and takes two parameters, first a function with an accumulator value and the item itself as two parameters, and initial value for the accumulator as the second parameter. And perform some calculation on each item to change the accumulated value for each iteration to return the desired output.
 
-In the example, we iterate over each item to add up the price to the initial value of the accumulator.
+**In the example, we iterate over each item to add up the price to the initial value of the accumulator.**
 
 ```javascript
 const total = items.reduce((currentTotal, item) => {
@@ -245,7 +245,7 @@ _Output:_
 1840
 ```
 
-In the example, we iterate over each item to increment the initial value of the accumulator by one, if the current one matches with the given character.
+**In the example, we iterate over each item to increment the initial value of the accumulator by one, if the current one matches with the given character.**
 
 ```javascript
 const pooCount = faces.reduce((acc, cur) => {
@@ -262,6 +262,8 @@ _Output:_
 ```
 
 `includes` method checks if the given value is present in the array or not to return a boolean output.
+
+**In the example, we iterate over each item to to check if the given element is included or not**
 
 ```javascript
 const numbers = [1, 2, 3, 4, 5];

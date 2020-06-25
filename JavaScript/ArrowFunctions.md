@@ -4,7 +4,7 @@ _[General](../README.md) > [JavaScript](./main.md) > [Arrow Functions](./ArrowFu
 
 ## **Arrow Functions**
 
-**Function with a single parameter:**
+### **Function with a single parameter**
 
 ```javascript
 // Function with one parameter
@@ -31,7 +31,7 @@ _Output:_
 true true true
 ```
 
-**Function with two parameters:**
+### **Function with two parameters**
 
 ```javascript
 // Function with two parameters
@@ -56,7 +56,7 @@ _Output:_
 9 13 12
 ```
 
-**Function with no parameters:**
+### **Function with no parameter(s)**
 
 ```javascript
 // Function with no parameter
@@ -82,7 +82,7 @@ _Output:_
 0.6592502157878466 0.32602803839516525 0.3468706177062806
 ```
 
-**Anonymous function:**
+### **Anonymous function**
 
 ```javascript
 // Anonymous function

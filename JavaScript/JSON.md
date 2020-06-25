@@ -7,7 +7,7 @@ _[General](../README.md) > [JavaScript](./main.md) > [JSON](./JSON.md)_
 ### **OverView**
 <img src="./images/JSON_Overview.png" alt="JSON Overiew" style="width:60%;padding:0 20%;"/>
 
-### **JSON Types:**
+### **JSON Types**
 
 ```json
 {
@@ -24,7 +24,7 @@ _[General](../README.md) > [JavaScript](./main.md) > [JSON](./JSON.md)_
 }
 ```
 
-A sample json file can be seen below
+**A sample json file**
 
 *company.json*
 

@@ -4,13 +4,13 @@ _[General](../README.md) > [JavaScript](./main.md) > [JavaScript Loading](./Java
 
 ## **JavaScript Loading**
 
-### Loading the JavaScript as part of the web page can be done in three different ways:
+### **Loading the JavaScript as part of the web page can be done in three different ways**
 
 - normal
 - async
 - defer
 
-In a normal case when an HTML page is parsed from top to bottom, whenever the parser comes across the resources( images, etc., ) it will load them parallelly but in the case of javascript, the parser will stop at that stage until the script is loaded and executed thus blocking the further loading of the HTML page.
+When an HTML page is parsed from top to bottom, whenever the parser comes across the resources( images, etc.,), it will load them parallelly but in case of javascript, the parser will stop at that stage until the script is loaded and executed thus blocking the further loading of the HTML page.
 
 ```html
 <!DOCTYPE html>
@@ -33,11 +33,11 @@ In a normal case when an HTML page is parsed from top to bottom, whenever the pa
 
 So to not halt the process of loading of the HTML content and make the loading of the whole page to be quicker, we can make use of either `async` or `defer` based on the requirement.
 
-Below is a short description of how the three ways of loading javascript take place and also in which case can either of them be used:
+### **A short description of how the three ways of loading javascript take place and also in which case can either of them can be used**
 
 <img src="./images/Script_Loading_Differences.png" alt="javascript loading differences" style="width:70%;padding:0 15%;"/>
 
-1.  In the normal way of loading the script just stops parsing the page once it reaches the script tag, and once it is downloaded and executed then the rest of the parsing takes place.
+In the `normal` way of loading, the script stops parsing the page once it reaches the script tag, and once it is downloaded and executed, then the rest of the parsing takes place.
 
 ```html
 <!DOCTYPE html>
@@ -52,7 +52,7 @@ Below is a short description of how the three ways of loading javascript take pl
 </html>
 ```
 
-2.  You need to be careful while using the `async` attribute as it loads and executes the script (s) based on the size and network bandwidth in random order and this could cause a problem if there is a dependency.
+You need to be careful while using the `async` attribute as it loads and executes the script (s) based on the size and network bandwidth in random order, and this could cause a problem if there is a dependency.
 
 ```html
 <!DOCTYPE html>
@@ -67,7 +67,7 @@ Below is a short description of how the three ways of loading javascript take pl
 </html>
 ```
 
-3.  In the case of `defer` attribute, loading and parsing are done in parallel and once all the parsing is complete, then execution of the script (s) will take place.
+In the case of `defer` attribute, loading and parsing are done in parallel and, once all the parsing is complete, then execution of the script (s) will take place.
 
 ```html
 <!DOCTYPE html>

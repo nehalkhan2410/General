@@ -4,9 +4,9 @@ _[General](../README.md) > [JavaScript](./main.md) > [Modules](./Modules.md)_
 
 ## **Modules**
 
-### **According to ES6 exporting the modules can be done in either of the ways as shown:**
+### **According to ES6 exporting the modules can be done in either of the ways as shown**
 
-### Export can be done inline as below:
+**Export can be done inline as**
 
 user.js
 
@@ -27,7 +27,7 @@ export function printAge(user) {
 }
 ```
 
-### Everything can be exported at the end like:
+**Everything can be exported at the end as**
 
 user.js
 
@@ -54,7 +54,7 @@ export { printName, printAge };
 
 you can use `default` to export only once in the whole file which would mostly be for the main object.
 
-### You can import the modules like:
+**You can import the modules as**
 
 main.js
 
@@ -76,7 +76,7 @@ printName(user);
 printAge(user);
 ```
 
-### We can use aliases for imports like:
+**We can use aliases for imports like**
 
 main.js
 
@@ -98,7 +98,7 @@ pN(user);
 pA(user);
 ```
 
-### You can use the imported modules in a html page like:
+### **You can use the imported modules in a html page as**
 
 ```html
 <!DOCTYPE html>
@@ -127,7 +127,7 @@ But the recommended way is to use tools like `bable` to make use of newer ES6 mo
 
 These types of export and import are still widely used in the nodejs community.
 
-### Export can be done inline as below:
+**Export can be done inline as**
 
 user.js
 
@@ -148,7 +148,7 @@ module.exports.printAge = function (user) {
 };
 ```
 
-### You can import the modules like:
+**You can import the modules like**
 
 main.js
 

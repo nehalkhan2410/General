@@ -6,7 +6,7 @@ _[General](../README.md) > [JavaScript](./main.md) > [Template Literals](./Templ
 
 Template literals are enclosed by the backtick (``) character instead of double or single quotes. Template literals can contain placeholders/variables. These are indicated by the dollar sign and curly braces (\${expression}).
 
-These are a new way to create strings which brings new features like:
+**These are a new way to create strings which brings new features like**
 
 - String Interpolation
 - Embedded Expressions
@@ -14,7 +14,7 @@ These are a new way to create strings which brings new features like:
 - Nesting Templates
 - Tagged Templates
 
-**String Interpolation:**
+**String Interpolation**
 
 Generally, when we talk about interpolation, we concatenate the strings with variables to form a complete sentence.
 
@@ -37,7 +37,7 @@ not 20.
 Fifteen is 15 and not 20.
 ```
 
-**Embedded Expressions:**
+**Embedded Expressions**
 
 We embed expressions in a string by concatenating them with static string content.
 
@@ -72,7 +72,7 @@ Topher 🐴 is a large horse skilled in jousting & racing
 Topher 🐴 is a large horse skilled in jousting & racing
 ```
 
-**Multi-line Strings:**
+**Multi-line Strings**
 
 Normally, you would have to use the following syntax with newline characters in order to get multi-line strings:
 
@@ -94,7 +94,7 @@ string text line 1
 string text line 2
 ```
 
-**Nesting Templates:**
+**Nesting Templates**
 
 In certain cases, nesting a template is the easiest (and perhaps more readable) way to have configurable strings. For instance, if condition a is true, then return this templated literal.
 
@@ -132,7 +132,7 @@ _Output:_
 header icon-collapser
 ```
 
-**Tagged Templates:**
+**Tagged Templates**
 
 Tags allow you to parse template literals with a function. The first argument of a tag function contains an array of string values. The remaining arguments are related to the expressions.
 

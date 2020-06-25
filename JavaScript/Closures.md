@@ -6,7 +6,7 @@ _[General](../README.md) > [JavaScript](./main.md) > [Closures](./Closures.md)_
 
 JavaScript uses  `lexical scoping` which means variables defined in the upper scopes are also available in all of the lower scopes.
 
-**Closure in a global scope**
+### **Closure in a global scope**
 
 In the example value of `myName` is used by the `printName` function, as the parent scope for `printName` function is `global`, as they are both not wrapped in any other block.
 
@@ -51,7 +51,7 @@ The closure value for third `printName` call.
 <img src="./images/printName_Third_Closure.png" alt="Closure for third call" style="width:60%;padding:0 35% 0 5%;"/>
 
 
-**Closure inside functions**
+### **Closure inside functions**
 
 ```javascript
 const globalVariable = "Global";
@@ -89,7 +89,7 @@ You can see that the values that are used by the `innerFunction` from its parent
 
 Everything from the parent function/block is accessible inside the innermost block but not vice versa i.e. if you try to access the value of `localVariable` outside the function it will throw an `undefined` error.
 
-**Closure inside a for loop with a variable declared using `let`**
+### **Closure inside a for loop with a variable declared using `let`**
 
 Since `let` has block scope, for each iteration `i` is redeclared with the present value of that iteration and that reference of `i` is saved in the `Closure` (new variable `i` each time).
 
@@ -119,7 +119,7 @@ after the loop
 ```
 
 
-**Closure inside a for loop with variable declared using `var`**
+### **Closure inside a for loop with variable declared using `var`**
 
 Since `var` has function scope, for each iteration `i` is reassigned with the present value of that iteration and that reference of `i` is saved in the `Closure` (same i each time).
 

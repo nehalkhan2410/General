@@ -4,11 +4,11 @@ _[General](../README.md) > [JavaScript](./main.md) > [Variables](./Variables.md)
 
 ## **Variables**
 
-## **var:**
+## **var**
 
 A variable declared using `var` has function scope i.e., their scope is throughout the function in which it resides and, if it declared outside of any function then it has a global scope.
 
-As shown variable is declared inside a function, so it can only be accessed inside it.
+**As shown variable is declared inside a function, so it can only be accessed inside it.**
 
 ```javascript
 function hello() {
@@ -31,7 +31,7 @@ _Output:_
 hello
 ```
 
-As shown variable is not inside any function, it is accessible anywhere.
+**As shown variable is not inside any function, it is accessible anywhere.**
 
 ```javascript
 if (true) {
@@ -68,7 +68,7 @@ This is false
 
 <img src="./images/Variable_Hoisting.png" alt="Variable Hoisting" style="width:40%;padding:0 30%;"/>
 
-**variable hoisting example**
+**Variable Hoisting example**
 
 ```javascript
 function foo() {
@@ -90,11 +90,11 @@ undefined there!
 Hello there!
 ```
 
-**variable and function hoisting example**
+**Variable and Function Hoisting example**
 
 <img src="./images/Var_and_Function_Hoisting.png" alt="Variable and Function Hoisting" style="width:80%;padding:0 10%;"/>
 
-## **let and const:**
+## **let and const**
 
 A variable declared using `let` or `const` has a block scope i.e., their scope is within the block in which it resides.
 
