@@ -28,4 +28,3 @@ _[General](../README.md) > [Medium](./main.md) > [Publications](./Publications.m
 | 12  | Illumination                | 24k       | Writer | [Click here](https://digitalmehmet.com/contact/) Form Draft only                                                                                     |                     | 18/07(N) ✅                                    |
 | 13  | The Innovation              | 2k        | Writer | -                                                                                                                                                    | -                   | -                                              |
 
-F
