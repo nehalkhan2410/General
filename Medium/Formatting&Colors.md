@@ -2,7 +2,7 @@ _[General](../README.md) > [Medium](./main.md) > [Format and Colors](./Formattin
 
 ## **Image Format Info:**
 
-- #### Color Code: #F0DB4F
+- #### Color Code: #F0DB4F #008080 
 - #### Font Style : Calibri
 - #### Font Size
   - #### Main: 400
