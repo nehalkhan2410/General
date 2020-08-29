@@ -7,3 +7,4 @@ _[General](../README.md) > [Medium](./main.md) > [Published](./Published.md)_
 | For Loops            | N/A                    | N/A                    | 02:16AM 21st July 2020 | Illumination                |
 | Variable Declaration | 01:43PM 25th July 2020 | 06:25PM 25th July 2020 | 09:12PM 29th July 2020 | codeburst                   |
 | Console              | N/A                    | 10:45PM 11th Aug 2020  | 01:40AM 12th Aug 2020  | JavaScript in Plain English |
+| JS Loading           | N/A                    | 11:10PM 28th Aug 2020  |                        | Better Programming          |
