@@ -7,18 +7,20 @@ _[General](../README.md) > [Medium](./main.md)_ > [Ideas](./Ideas.md)
 1. Types of `for` Loops ✅ 📑
 2. Types of variable declarations ✅ 📑
 3. Console ✅ 📑
+4. JavaScript Loading (In the head section, End of the page, async, and defer) ✅ 📑
+5. JSON ✅ 📑
 
 ## **Upcoming**
 
-- JavaScript Loading (normal, end of page, defer, and asyc) 🏃 📑
-- JSON 🏃 📑
+- == vs === in JS 🏃 📑
 - CSS Box Model
-- Programming Best Practices (naming etc.,)
-- String methods
 - Units in CSS
-- == vs === in JS
+- String methods
+- Programming Best Practices (naming etc.,)
+- VS Code tools
+- Markdown
+- Quantum Internet
 - GitHub OAuth using Angular
 - Google OAuth using Angular
 - Jio
 - Covid Vaccines
-- VS Code tools
