@@ -22,4 +22,4 @@ _[General](../README.md) > [Medium](./main.md) > [Stats](./Stats.md)_
 | Console              | 0.67 | 29m                |
 | JSON                 | 0.02 | 50s                |
 | Script Loading       | 0.61 | 26m                |
-| Equality in JS       |      |                    |
+| Equality in JS       | 0.73 | 31m                |
