@@ -9,5 +9,6 @@ _[General](../README.md) > [Medium](./main.md)_
 | 3   | [**Pitches**](./Pitches.md)                     | Pitches to Different Publications       |
 | 4   | [**Publications**](./Publications.md)           | Tech Publciations to pitch to in medium |
 | 5   | [**Published**](./Published.md)                 | List of Published Stories               |
-| 6   | [**Stories**](./Stories.md)                     | Links to my Drafts/Published stories    |
-| 7   | [**Topics**](./Topics.md)                       | Topics List                             |
+| 6   | [**Stats**](./Stats.md)                         | Statistics of all Stories               |
+| 7   | [**Stories**](./Stories.md)                     | Links to my Drafts/Published stories    |
+| 8   | [**Topics**](./Topics.md)                       | Topics List                             |

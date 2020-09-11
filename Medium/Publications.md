@@ -10,7 +10,7 @@ _[General](../README.md) > [Medium](./main.md) > [Publications](./Publications.m
 | 2   | Elemental | 162k      | elemental@medium.com |
 | 3   | Marker    | 67k       | marker@medium.com    |
 
-## Independent Publications:
+## Technical Publications:
 
 | #   | Name                        | Followers | Submission link                                                                                                                                      | Response time(days) |
 | --- | --------------------------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
@@ -34,3 +34,9 @@ _[General](../README.md) > [Medium](./main.md) > [Publications](./Publications.m
 | 18  | javarevisited               | 6.3k      | [Click here](https://medium.com/javarevisited/how-to-contribute-to-javarevisited-e95dcb0e8769) Mail Draft only                                       |                     |
 | 19  | The Innovation              | 5.1k      | N/A                                                                                                                                                  | N/A                 |
 | 20  | dotdev                      | 5k        | N/A                                                                                                                                                  | N/A                 |
+
+## Other Publications
+
+| #   | Name          | Followers | Submission link | Response time(days) |
+| --- | ------------- | --------- | --------------- | ------------------- |
+| 1   | Better Humans | 384k      |                 |                     |

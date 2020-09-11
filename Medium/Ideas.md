@@ -9,12 +9,14 @@ _[General](../README.md) > [Medium](./main.md)_ > [Ideas](./Ideas.md)
 3. Console ✅ 📑
 4. JavaScript Loading (In the head section, End of the page, async, and defer) ✅ 📑
 5. JSON ✅ 📑
+6. Equality vs. Strict Equality in JavaScript ✅ 📑
 
 ## **Upcoming**
 
-- == vs === in JS 🏃 📑
+- cookies, local storage ans session storage 📑
 - CSS Box Model
 - Units in CSS
+- CSS Display properties
 - String methods
 - Programming Best Practices (naming etc.,)
 - VS Code tools
@@ -24,3 +26,5 @@ _[General](../README.md) > [Medium](./main.md)_ > [Ideas](./Ideas.md)
 - Google OAuth using Angular
 - Jio
 - Covid Vaccines
+
+
