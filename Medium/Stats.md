@@ -10,16 +10,18 @@ _[General](../README.md) > [Medium](./main.md) > [Stats](./Stats.md)_
 | JSON                 | -    | -     |
 | Script Loading       | -    | -     |
 | Equality in JS       | -    | -     |
+| 56 Funny Comments    | -    | -     |
 
 ---
 
 ## First Day Metrics
 
-| Topic                | \$   | Read Time (1 \| 2) |
-| -------------------- | ---- | ------------------ |
-| For Loops            | 0.01 | 15s                |
-| Variable Declaration | 0.01 | 30s (2)            |
-| Console              | 0.67 | 29m                |
-| JSON                 | 0.02 | 50s                |
-| Script Loading       | 0.61 | 26m                |
-| Equality in JS       | 0.73 | 31m                |
+| Topic                | \$   | Read Time |
+| -------------------- | ---- | --------- |
+| For Loops            | 0.01 | 15s       |
+| Variable Declaration | 0.01 | 30s (2)   |
+| Console              | 0.67 | 29m       |
+| JSON                 | 0.02 | 50s       |
+| Script Loading       | 0.61 | 26m       |
+| Equality in JS       | 0.73 | 31m       |
+| 56 Funny Comments    |      |           |
