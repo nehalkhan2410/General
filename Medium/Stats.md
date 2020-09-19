@@ -24,4 +24,4 @@ _[General](../README.md) > [Medium](./main.md) > [Stats](./Stats.md)_
 | JSON                 | 0.02 | 50s       |
 | Script Loading       | 0.61 | 26m       |
 | Equality in JS       | 0.73 | 31m       |
-| 56 Funny Comments    |      |           |
+| 56 Funny Comments    | 3.95 | 2h48m     |
