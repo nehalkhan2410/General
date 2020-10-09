@@ -2,15 +2,15 @@ _[General](../README.md) > [Medium](./main.md) > [Stats](./Stats.md)_
 
 ## Earnings
 
-| Topic                | July | Aug   |
-| -------------------- | ---- | ----- |
-| For Loops            | 0.03 | 0.26  |
-| Variable Declaration | 0.07 | 0.04  |
-| Console              | -    | 27.65 |
-| JSON                 | -    | -     |
-| Script Loading       | -    | -     |
-| Equality in JS       | -    | -     |
-| 56 Funny Comments    | -    | -     |
+| Topic                | July | Aug   | Sept|
+| -------------------- | ---- | ----- |----|
+| For Loops            | 0.03 | 0.26  |0.20|
+| Variable Declaration | 0.07 | 0.04  |0|
+| Console              | -    | 27.65 |7.40|
+| JSON                 | -    | -     |1.35|
+| Script Loading       | -    | -     |15.12|
+| Equality in JS       | -    | -     |1.95|
+| 56 Funny Comments    | -    | -     | 76.64|
 
 ---
 
