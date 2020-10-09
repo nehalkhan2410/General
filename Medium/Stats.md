@@ -11,6 +11,7 @@ _[General](../README.md) > [Medium](./main.md) > [Stats](./Stats.md)_
 | Script Loading       | -    | -     |15.12|
 | Equality in JS       | -    | -     |1.95|
 | 56 Funny Comments    | -    | -     | 76.64|
+|                      |0.10     |27.95|102.66|
 
 ---
 
