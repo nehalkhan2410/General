@@ -11,6 +11,6 @@ _[General](../README.md) > [Medium](./main.md) > [Pitches](./Pitches.md)_
 | 5   | Level Up Coding             | 45k       | Writer | 11:00PM 27/08(4) ✅                                                                         |
 | 6   | Javascript in plain english | 33k       | Writer | 04:30AM 23/07(N) ✅                                                                         |
 | 7   | Illumination                | 29k       | Writer | 18/07(N) ✅                                                                                 |
-| 8   | Bits and pieces             | 27k       |        | 10:50PM 25/08(4), 12:35AM 07/09(6), 10:58PM 07/09(6)                                        |
+| 8   | Bits and pieces             | 27k       |        | 10:50PM 25/08(4), 12:35AM 07/09(6), 10:58PM 07/09(6), 04:26PM 10/10(8)                      |
 | 9   | Frontend Weekly             | 22k       | Writer | 12:35AM 07/09(6), 10:58PM 07/09(6) ✅                                                       |
 | 10  | The Innovation              | 5.1k      | Writer | ✅                                                                                          |
