@@ -13,6 +13,7 @@ _[General](../README.md) > [Medium](./main.md) > [Stories](./Stories.md)_
 | 5   | JSON                 | https://levelup.gitconnected.com/all-you-need-to-know-about-json-and-its-usage-in-javascript-b5181208966d                       | yes       |
 | 6   | Check Equality in JS | https://medium.com/javascript-in-plain-english/whats-the-right-way-to-check-equality-in-javascript-1c799c6078b4                 | yes       |
 | 7   | 56 Funny comments    | https://medium.com/better-programming/56-funny-code-comments-that-people-actually-wrote-6074215ab387                            | yes       |
+| 8   | 30 Programming Jokes | https://medium.com/javascript-in-plain-english/30-programming-jokes-that-will-make-you-laugh-98f9e20c34e9| yes |
 
 ## **Story Friends Links**
 
@@ -25,3 +26,4 @@ _[General](../README.md) > [Medium](./main.md) > [Stories](./Stories.md)_
 | 5   | JSON                 | https://levelup.gitconnected.com/all-you-need-to-know-about-json-and-its-usage-in-javascript-b5181208966d?source=friends_link&sk=f4cc53a20428f257a4d3991b6b2b8303                       | yes       |
 | 6   | Check Equality in JS | https://medium.com/javascript-in-plain-english/whats-the-right-way-to-check-equality-in-javascript-1c799c6078b4?source=friends_link&sk=fa7a5cafd40e592e82fe56dd60fa2e45                 | yes       |
 | 7   | 56 Funny comments    | https://medium.com/better-programming/56-funny-code-comments-that-people-actually-wrote-6074215ab387?source=friends_link&sk=945964681c85c089013a9377652e03ae                            | yes       |
+| 8 | 30 Programming Jokes| https://medium.com/javascript-in-plain-english/30-programming-jokes-that-will-make-you-laugh-98f9e20c34e9?source=friends_link&sk=9849cb146eec82c579a1077d5580e409 |yes|
