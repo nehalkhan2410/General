@@ -11,4 +11,4 @@ _[General](../README.md) > [Medium](./main.md) > [Published](./Published.md)_
 | JSON                 | 10:57PM 1st Sept 2020            | 01:44AM 3rd Sept 2020  | 03:33AM 3rd Sept 2020  | Level Up Coding             |
 | Equality in JS       | 10:45PM 9th Sept 2020            | 05:20AM 10th Sept 2020 | 05:20AM 10th Sept 2020 | JavaScript in Plain English |
 | Funny code comments  | 12:38AM 16th Sept 2020           | 10:19PM 18th Sept 2020 | 10:23PM 18th Sept 2020 | Better Programming          |
-| Programming Jokes | 01:08AM 10th Oct 2020           |  |  | Better Programming          |
+| Programming Jokes    | 08:26PM 16th Oct 2020            | 11:38PM 16th Oct 2020  | 11:38PM 16th Oct 2020  | JavaScript in Plain English |
